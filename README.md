@@ -6,8 +6,11 @@ Technologies Data Engineering Internship (Summer 2026).
 ## 📌 About
 
 This repository showcases the work completed week by week during the 
-internship — covering data exploration, cleaning, SQL analysis, and more, 
-using Python and SQL in Jupyter Notebook.
+internship. **Week 1** focused on data exploration and cleaning using Pandas 
+on an e-commerce shopping dataset, while **Week 2** covered SQL-based 
+analysis — filtering, aggregation, joins, and transactions — on a relational 
+e-commerce sales database. The repository will continue to be updated with 
+each new week's assignment.
 
 ## 🛠️ Technologies & Tools
 
