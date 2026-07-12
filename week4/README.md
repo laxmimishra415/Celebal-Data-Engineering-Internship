@@ -46,11 +46,14 @@ Built pipeline `PL_MetadataCheck` chaining **Get Metadata → Copy Data**, enabl
 📸 `screenshots/Task4_PipelineDesign.png`
 
 ### 5. Execution & Monitoring
-Executed the pipeline in Debug mode and monitored the run through ADF's built-in monitoring — achieved a **Succeeded** status on the full validated run.
-📸 `screenshots/Task5_PipelineSucceeded.png` · `screenshots/Task5_ExecutionDetails.png`
+Executed the pipeline in Debug mode and monitored the run through ADF's built-in monitoring, achieving a **Succeeded** status. Additionally, created a **Schedule Trigger (`TR_DailySchedule`)** to demonstrate pipeline scheduling and left it in the **Stopped** state to avoid automatic executions.
+
+📸 `screenshots/Task5_PipelineSucceeded.png` · `screenshots/Task5_ExecutionDetails.png` · `screenshots/Task5_Trigger.png`
 
 ### 6. Access Control (IAM)
-Applied the principle of least-privilege by assigning **Reader** and **Contributor** roles, ensuring ADF has appropriate, scoped access to Storage resources.
+Configured Azure RBAC by assigning the **Storage Blob Data Contributor** role to the **Azure Data Factory Managed Identity**, enabling secure access to Blob Storage for pipeline operations.
+
+📸 `screenshots/Task6_ManagedIdentity.png`
 📸 `screenshots/Task6_IAMRoles.png`
 
 ## 🎯 Mini Project — End-to-End Validation
