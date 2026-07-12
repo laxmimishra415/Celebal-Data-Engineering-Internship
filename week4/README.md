@@ -47,7 +47,7 @@ Built pipeline `PL_MetadataCheck` chaining **Get Metadata → Copy Data**, enabl
 
 ### 5. Execution & Monitoring
 Executed the pipeline in Debug mode and monitored the run through ADF's built-in monitoring — achieved a **Succeeded** status on the full validated run.
-📸 `screenshots/Task5_PipelineSucceeded.png`
+📸 `screenshots/Task5_PipelineSucceeded.png` · `screenshots/Task5_ExecutionDetails.png`
 
 ### 6. Access Control (IAM)
 Applied the principle of least-privilege by assigning **Reader** and **Contributor** roles, ensuring ADF has appropriate, scoped access to Storage resources.
