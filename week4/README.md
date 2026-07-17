@@ -68,6 +68,12 @@ Configured Azure RBAC by assigning the **Storage Blob Data Contributor** role to
 
 📸 `screenshots/MiniProject_Output.png`
 
+## 🧩 Challenges Faced & Solutions
+- **Azure Free Trial verification delays:** Initial student verification faced access issues; resolved by switching to the standard Azure free trial with card verification.
+- **Destination file not generated on first run:** The `DS_DestinationCSV` dataset initially had no file name defined, so the Copy Data activity validated successfully but didn't produce an output file. Fixed by explicitly specifying an output file name in the dataset.
+- **Access between ADF and Storage:** Beyond assigning IAM roles to my own account, I also granted the ADF instance's Managed Identity Contributor access on the Storage Account — reflecting the real-world pattern where the service itself (not just the user) needs authorized access to read/write data.
+- **Scheduling vs. on-demand runs:** Configured a Schedule Trigger (`TR_DailySchedule`) in addition to Debug runs, to demonstrate both manual testing and automated/production-style pipeline execution.
+
 ## 💡 Key Learnings
 - Provisioning and organizing Azure resources using Resource Groups
 - Configuring secure connections between Azure services via Linked Services
