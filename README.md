@@ -4,12 +4,13 @@ This repository contains my weekly assignments completed during the Celebal Tech
 
 ## 📌 About
 
-This repository showcases the work completed week by week during the internship. Week 1 focused on data exploration and cleaning using Pandas on an e-commerce shopping dataset, Week 2 covered SQL-based analysis — filtering, aggregation, joins, and transactions — on a relational e-commerce sales database, Week 3 covered SQL Window Functions on a retail Superstore dataset, and Week 4 focused on Azure cloud fundamentals — building an end-to-end data pipeline using Azure Blob Storage and Azure Data Factory. The repository will continue to be updated with each new week's assignment.
+This repository showcases the work completed week by week during the internship. Week 1 focused on data exploration and cleaning using Pandas on an e-commerce shopping dataset, Week 2 covered SQL-based analysis — filtering, aggregation, joins, and transactions — on a relational e-commerce sales database, Week 3 covered SQL Window Functions on a retail Superstore dataset, Week 4 focused on Azure cloud fundamentals — building an end-to-end data pipeline using Azure Blob Storage and Azure Data Factory, and Week 5 covered Apache Spark fundamentals — data cleaning, transformation, and aggregation using PySpark DataFrames. The repository will continue to be updated with each new week's assignment.
 
 ## 🛠️ Technologies & Tools
 
 - Python (Pandas, NumPy)
 - SQL (SQLite)
+- Apache Spark (PySpark)
 - Jupyter Notebook
 - Microsoft Azure (Blob Storage, Azure Data Factory)
 - Git & GitHub
@@ -32,9 +33,15 @@ Celebal-Data-Engineering-Internship/
 ├── sql-window-functions/       ← Week 3
 │   ├── Sample - Superstore.csv
 │   └── Week3_SQL_Assignment.ipynb
-└── week4/                      ← Week 4
-├── README.md
-└── screenshots/
+├── week4/                      ← Week 4
+│   ├── README.md
+│   └── screenshots/
+└── week5/                      ← Week 5
+    ├── data/
+    ├── notebook/
+    ├── output/
+    ├── screenshots/
+    └── README.md
 ## 📖 Assignment Status
 
 | Week | Assignment | Topics Covered | Status |
@@ -43,6 +50,7 @@ Celebal-Data-Engineering-Internship/
 | Week 2 | E-Commerce Sales Database | SQL, Joins, Aggregation, Transactions | ✅ Completed |
 | Week 3 | SQL Window Functions | RANK, DENSE_RANK, LAG, LEAD, Running Totals, NTILE | ✅ Completed |
 | Week 4 | [Azure Cloud & Data Factory](./week4) | Azure Blob Storage, ADF Pipelines, IAM Roles | ✅ Completed |
+| Week 5 | [Spark Data Cleaning](./week5) | PySpark DataFrames, Data Cleaning, GroupBy, Aggregation | ✅ Completed |
 
 ## 👩‍💻 Author
 
