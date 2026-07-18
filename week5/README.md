@@ -3,6 +3,9 @@
 ## Objective
 Understand Spark fundamentals and use it to clean, transform, and analyze data using DataFrames.
 
+### About the Dataset
+Since no dataset was provided with the assignment, a synthetic sample dataset was generated matching the required columns (`user_id`, `region`, `product_category`, `subscription`, `store_id`, etc.). Duplicates, null values, and inconsistent timestamp formats were intentionally included to realistically demonstrate the cleaning and transformation operations covered in this assignment.
+
 ## What was done
 - Loaded a sample transactions dataset (620 rows) into a Spark DataFrame with `inferSchema=True`.
 - Performed data cleaning: removed duplicate rows, filled/handled null values (`status`, `price`, `email`, `username`).
