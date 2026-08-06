@@ -1,0 +1,151 @@
+product_id,product_name,category,subcategory,cost_price
+1,Ultra Smartphone 198,Electronics,Mobiles,28609.9
+2,Mini Notebook 155,Electronics,Laptops,21408.92
+3,Smart Case 304,Electronics,Accessories,10387.3
+4,Max Headphone 584,Electronics,Audio,15452.25
+5,Smart Smartphone 600,Electronics,Mobiles,13286.97
+6,Mini Notebook 479,Electronics,Laptops,18501.61
+7,Pro Earphones 369,Electronics,Accessories,13206.87
+8,Pro Headphone 254,Electronics,Audio,33390.05
+9,Lite Phone 927,Electronics,Mobiles,48536.74
+10,Pro Laptop 960,Electronics,Laptops,26152.98
+11,Ultra Earphones 587,Electronics,Accessories,19770.48
+12,Mini Speaker 223,Electronics,Audio,22479.53
+13,Ultra Phone 927,Electronics,Mobiles,2181.66
+14,Classic Laptop 306,Electronics,Laptops,31379.95
+15,Lite Case 844,Electronics,Accessories,3397.25
+16,Classic Headphone 665,Electronics,Audio,13846.23
+17,Pro Smartphone 905,Electronics,Mobiles,29399.43
+18,Max Notebook 524,Electronics,Laptops,28351.37
+19,Max Charger 676,Electronics,Accessories,39297.99
+20,Classic Headphone 370,Electronics,Audio,24304.96
+21,Pro Smartphone 276,Electronics,Mobiles,7235.44
+22,Pro Notebook 505,Electronics,Laptops,16608.13
+23,Pro Cable 863,Electronics,Accessories,13465.79
+24,Pro Headphone 445,Electronics,Audio,15187.59
+25,Smart Smartphone 978,Electronics,Mobiles,4955.96
+26,Mini Laptop 407,Electronics,Laptops,22183.38
+27,Plus Case 846,Electronics,Accessories,32295.46
+28,Smart Speaker 316,Electronics,Audio,20388.16
+29,Lite Smartphone 940,Electronics,Mobiles,39584.95
+30,Plus Laptop 826,Electronics,Laptops,6825.71
+31,Mini Charger 297,Electronics,Accessories,10076.3
+32,Ultra Speaker 133,Electronics,Audio,45905.65
+33,Plus Phone 477,Electronics,Mobiles,25281.06
+34,Pro Laptop 347,Electronics,Laptops,29722.48
+35,Smart Cable 700,Electronics,Accessories,17245.24
+36,Max Headphone 391,Electronics,Audio,2530.07
+37,Ultra Phone 762,Electronics,Mobiles,10376.21
+38,Pro Notebook 985,Electronics,Laptops,38390.26
+39,Smart Charger 235,Electronics,Accessories,30077.04
+40,Ultra Speaker 358,Electronics,Audio,47153.1
+41,Plus Jacket 533,Clothing,Men,42586.73
+42,Plus Top 323,Clothing,Women,33875.95
+43,Max Shorts 107,Clothing,Kids,33134.65
+44,Plus Sandals 405,Clothing,Footwear,24112.83
+45,Plus Jeans 755,Clothing,Men,13880.4
+46,Plus Saree 292,Clothing,Women,38285.45
+47,Classic T-Shirt 776,Clothing,Kids,7039.48
+48,Smart Sneakers 402,Clothing,Footwear,20957.36
+49,Pro Jeans 697,Clothing,Men,28623.52
+50,Lite Dress 843,Clothing,Women,34331.59
+51,Lite Shorts 619,Clothing,Kids,8540.83
+52,Plus Sneakers 199,Clothing,Footwear,37058.9
+53,Mini Jacket 796,Clothing,Men,32739.01
+54,Lite Dress 328,Clothing,Women,15388.91
+55,Lite Shorts 366,Clothing,Kids,23214.84
+56,Smart Sneakers 154,Clothing,Footwear,29199.55
+57,Max Jacket 583,Clothing,Men,25048.84
+58,Classic Saree 642,Clothing,Women,2750.4
+59,Mini T-Shirt 305,Clothing,Kids,49360.22
+60,Mini Sandals 423,Clothing,Footwear,9058.82
+61,Smart Shirt 440,Clothing,Men,8882.37
+62,Pro Saree 104,Clothing,Women,10508.65
+63,Mini T-Shirt 601,Clothing,Kids,38998.64
+64,Classic Sneakers 748,Clothing,Footwear,21479.82
+65,Classic Jeans 104,Clothing,Men,10010.74
+66,Pro Top 429,Clothing,Women,26575.14
+67,Pro T-Shirt 741,Clothing,Kids,11351.97
+68,Plus Sandals 232,Clothing,Footwear,25191.66
+69,Mini Jeans 166,Clothing,Men,14945.2
+70,Smart Top 845,Clothing,Women,26229.68
+71,Mini Shorts 450,Clothing,Kids,24534.43
+72,Mini Sneakers 931,Clothing,Footwear,11459.49
+73,Mini Jacket 316,Clothing,Men,29505.16
+74,Max Dress 475,Clothing,Women,39616.75
+75,Plus Shorts 889,Clothing,Kids,2476.92
+76,Max Sneakers 769,Clothing,Footwear,2459.34
+77,Classic Shirt 554,Clothing,Men,27386.76
+78,Mini Top 310,Clothing,Women,31534.05
+79,Classic Shorts 777,Clothing,Kids,26039.45
+80,Classic Sneakers 950,Clothing,Footwear,25603.66
+81,Max Kettle 389,Home,Kitchen,5357.87
+82,Ultra Chair 896,Home,Furniture,26181.15
+83,Lite Wall Art 820,Home,Decor,8060.66
+84,Ultra Mop 804,Home,Cleaning,16563.65
+85,Pro Mixer 787,Home,Kitchen,5566.02
+86,Smart Sofa 252,Home,Furniture,38987.33
+87,Max Wall Art 362,Home,Decor,22864.72
+88,Plus Mop 575,Home,Cleaning,40668.26
+89,Plus Mixer 468,Home,Kitchen,15669.72
+90,Max Sofa 197,Home,Furniture,44520.09
+91,Mini Wall Art 779,Home,Decor,16466.61
+92,Plus Mop 999,Home,Cleaning,18662.48
+93,Mini Cookware Set 216,Home,Kitchen,48117.38
+94,Classic Table 806,Home,Furniture,40004.96
+95,Mini Vase 215,Home,Decor,36334.24
+96,Max Vacuum Cleaner 526,Home,Cleaning,24159.61
+97,Smart Kettle 285,Home,Kitchen,38969.26
+98,Pro Sofa 983,Home,Furniture,41934.9
+99,Smart Wall Art 599,Home,Decor,20593.65
+100,Max Vacuum Cleaner 367,Home,Cleaning,667.39
+101,Ultra Kettle 785,Home,Kitchen,25979.03
+102,Max Sofa 543,Home,Furniture,12466.42
+103,Classic Lamp 252,Home,Decor,27939.29
+104,Pro Vacuum Cleaner 758,Home,Cleaning,25303.1
+105,Smart Cookware Set 990,Home,Kitchen,37583.93
+106,Ultra Table 438,Home,Furniture,2565.02
+107,Classic Wall Art 512,Home,Decor,3987.59
+108,Smart Mop 190,Home,Cleaning,22381.05
+109,Smart Mixer 863,Home,Kitchen,5177.03
+110,Pro Table 670,Home,Furniture,41304.14
+111,Plus Vase 620,Home,Decor,32747.07
+112,Lite Mop 472,Home,Cleaning,40838.6
+113,Lite Cookware Set 673,Home,Kitchen,30017.56
+114,Lite Sofa 833,Home,Furniture,4916.98
+115,Ultra Vase 102,Home,Decor,41502.7
+116,Lite Mop 818,Home,Cleaning,44849.01
+117,Mini Cookware Set 941,Home,Kitchen,36091.88
+118,Plus Chair 725,Home,Furniture,6081.25
+119,Ultra Lamp 568,Home,Decor,9569.41
+120,Max Mop 875,Home,Cleaning,46335.0
+121,Smart Novel 568,Books,Fiction,47811.71
+122,Smart Biography 104,Books,Non-Fiction,2476.15
+123,Smart Reference Book 620,Books,Academic,45513.57
+124,Mini Comic Pack 206,Books,Comics,30047.27
+125,Classic Story Collection 528,Books,Fiction,45799.72
+126,Plus Biography 507,Books,Non-Fiction,48526.06
+127,Mini Reference Book 241,Books,Academic,35015.71
+128,Lite Graphic Novel 828,Books,Comics,27701.4
+129,Ultra Novel 314,Books,Fiction,14564.45
+130,Mini Guide 827,Books,Non-Fiction,47918.41
+131,Max Reference Book 879,Books,Academic,24044.48
+132,Plus Graphic Novel 998,Books,Comics,40424.82
+133,Pro Novel 490,Books,Fiction,33529.2
+134,Plus Biography 868,Books,Non-Fiction,49177.44
+135,Mini Reference Book 959,Books,Academic,39228.65
+136,Pro Comic Pack 467,Books,Comics,5168.88
+137,Classic Novel 343,Books,Fiction,39851.84
+138,Pro Guide 490,Books,Non-Fiction,47837.26
+139,Pro Reference Book 113,Books,Academic,10194.21
+140,Ultra Graphic Novel 748,Books,Comics,32399.24
+141,Ultra Novel 401,Books,Fiction,49173.49
+142,Mini Biography 277,Books,Non-Fiction,6011.72
+143,Classic Textbook 385,Books,Academic,6546.82
+144,Pro Graphic Novel 438,Books,Comics,46877.85
+145,Mini Novel 430,Books,Fiction,38694.36
+146,Smart Guide 908,Books,Non-Fiction,17936.38
+147,Ultra Reference Book 288,Books,Academic,39323.6
+148,Classic Comic Pack 656,Books,Comics,4642.68
+149,Ultra Novel 779,Books,Fiction,18071.85
+150,Smart Biography 674,Books,Non-Fiction,49057.6

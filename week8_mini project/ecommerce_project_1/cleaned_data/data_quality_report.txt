@@ -1,0 +1,10 @@
+DATA QUALITY REPORT
+==================================================
+Orders - missing customer_id: 111
+Orders - bad date format (DD-MM-YYYY) fixed: 197
+Orders - unparseable dates: 0
+Products - names normalized (trim/case): 50
+Customers - invalid emails found: 12
+  Invalid email customer_ids (first 20 shown): [42, 95, 155, 181, 235, 276, 364, 389, 531, 561, 571, 593]
+Order_items - negative quantity (returns): 162
+Order_items - orphaned rows (order_id not in orders): 0

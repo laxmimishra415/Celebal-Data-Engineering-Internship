@@ -1,0 +1,169 @@
+
+======================================================================
+Query 1: Total revenue per category
+======================================================================
+category | total_revenue
+Electronics | 19515096.8
+Home | 18255417.32
+Clothing | 17383002.45
+Books | 14987074.93
+... (4 total rows)
+
+======================================================================
+Query 2: Top 10 customers by total order value
+======================================================================
+customer_id | total_order_value
+424.0 | 523901.8
+413.0 | 422141.46
+592.0 | 400432.82
+546.0 | 399338.27
+140.0 | 398198.24
+... (10 total rows)
+
+======================================================================
+Query 3: Month-wise order count for the last 12 months
+======================================================================
+order_month | order_count
+2025-07 | 2
+2025-08 | 72
+2025-09 | 52
+2025-10 | 57
+2025-11 | 74
+... (13 total rows)
+
+======================================================================
+Query 4: Customers who placed orders but never had any item delivered
+======================================================================
+customer_id
+3.0
+5.0
+7.0
+10.0
+16.0
+... (122 total rows)
+
+======================================================================
+Query 5: Products that were ordered but had more returns than purchases
+======================================================================
+product_id | product_name | total_purchased | total_returned
+... (0 total rows)
+
+======================================================================
+Query 6: Return rate (returned items / total items) per category
+======================================================================
+category | returned_items | total_items | return_rate
+Books | 60 | 3007 | 0.02
+Clothing | 74 | 3656 | 0.0202
+Electronics | 76 | 4166 | 0.0182
+Home | 102 | 3879 | 0.0263
+... (4 total rows)
+
+======================================================================
+Query 7: Running totals of revenue per region, ordered by date
+======================================================================
+region_code | order_date | daily_revenue | running_total
+CENTRAL | 2024-01-06 | 27021.93 | 27021.93
+CENTRAL | 2024-01-07 | 14202.3 | 41224.23
+CENTRAL | 2024-01-09 | 34306.47 | 75530.7
+CENTRAL | 2024-01-12 | 6537.15 | 82067.85
+CENTRAL | 2024-01-15 | 65017.96 | 147085.82
+... (1558 total rows)
+
+======================================================================
+Query 8: DENSE_RANK: rank products by total revenue within each category
+======================================================================
+category | product_name | total_revenue | rank_in_category
+Books | Mini Reference Book 959 | 852172.62 | 1
+Books | Pro Comic Pack 467 | 682244.19 | 2
+Books | Ultra Reference Book 288 | 674139.34 | 3
+Books | Ultra Novel 314 | 646307.23 | 4
+Books | Pro Graphic Novel 438 | 614240.37 | 5
+... (150 total rows)
+
+======================================================================
+Query 9: LAG/LEAD: days between consecutive orders per customer, flag "At Risk"
+======================================================================
+customer_id | order_date | previous_order_date | days_gap | risk_flag
+1.0 | 2024-08-15 22:19:03 | None | None | At Risk
+1.0 | 2025-01-20 18:40:39 | 2024-08-15 22:19:03 | 157.85 | At Risk
+1.0 | 2025-04-16 09:18:26 | 2025-01-20 18:40:39 | 85.61 | At Risk
+2.0 | 2025-04-27 00:00:00 | None | None | At Risk
+2.0 | 2025-06-23 18:19:06 | 2025-04-27 00:00:00 | 57.76 | At Risk
+... (1889 total rows)
+
+======================================================================
+Query 10: Multi-level CTE: monthly revenue -> High/Medium/Low -> count per month
+======================================================================
+order_month | revenue_category | customer_count
+2024-01 | High | 46
+2024-01 | Low | 4
+2024-01 | Medium | 5
+2024-02 | High | 35
+2024-02 | Low | 7
+... (93 total rows)
+
+======================================================================
+Query 11: NTILE: divide customers into quartiles by lifetime value
+======================================================================
+customer_id | total_value | quartile | quartile_label
+424.0 | 523901.8 | 1 | Platinum
+413.0 | 422141.46 | 1 | Platinum
+592.0 | 400432.82 | 1 | Platinum
+546.0 | 399338.27 | 1 | Platinum
+140.0 | 398198.24 | 1 | Platinum
+... (567 total rows)
+
+======================================================================
+Query 12: Year-over-year comparison
+======================================================================
+year | month | revenue | prev_year_revenue | yoy_growth_percent
+2024 | 01 | 3130682.49 | None | None
+2024 | 02 | 1723188.49 | None | None
+2024 | 03 | 2007340.46 | None | None
+2024 | 04 | 1879616.78 | None | None
+2024 | 05 | 3287979.61 | None | None
+... (31 total rows)
+
+======================================================================
+Query 13: First/last purchased category per customer, flag category_shift
+======================================================================
+customer_id | first_category | last_category | category_shift
+1.0 | Books | Electronics | Yes
+2.0 | Books | Books | No
+3.0 | Books | Home | Yes
+4.0 | Books | Clothing | Yes
+5.0 | Electronics | Books | Yes
+... (567 total rows)
+
+======================================================================
+Query 14: Cumulative distribution: % of revenue from top customers
+======================================================================
+customer_id | revenue | cumulative_revenue | cumulative_percent
+424.0 | 523901.8 | 523901.8 | 0.8
+413.0 | 422141.46 | 946043.26 | 1.44
+592.0 | 400432.82 | 1346476.08 | 2.05
+546.0 | 399338.27 | 1745814.35 | 2.66
+140.0 | 398198.24 | 2144012.59 | 3.27
+... (567 total rows)
+
+======================================================================
+Query 15: Complex CTE: cohort analysis by registration month
+======================================================================
+cohort_month | month_offset | active_customers | cohort_customers | retention_rate
+2023-12 | 1 | 2 | 14 | 14.29
+2023-12 | 3 | 1 | 14 | 7.14
+2024-01 | 0 | 1 | 16 | 6.25
+2024-01 | 1 | 4 | 16 | 25.0
+2024-01 | 2 | 3 | 16 | 18.75
+... (74 total rows)
+
+======================================================================
+Query 16: Self-join: products frequently bought together
+======================================================================
+product_a | product_b | times_bought_together
+Ultra Speaker 358 | Smart Mop 190 | 6
+Plus Jeans 755 | Pro Graphic Novel 438 | 5
+Pro Smartphone 276 | Smart Mop 190 | 5
+Ultra Chair 896 | Ultra Mop 804 | 5
+Ultra Smartphone 198 | Pro Sofa 983 | 5
+... (20 total rows)
